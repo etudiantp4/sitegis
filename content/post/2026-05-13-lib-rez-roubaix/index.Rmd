@@ -67,37 +67,42 @@ Alors que Lille a bénéficié de percées haussmanniennes et de restructuration
 ### Pour finir, dans la continuité de notre étude SIG de l'accès à la santé pour Lille et Roubaix,  nous allons utiliser une jointure spatiale qui permettra la superposition de la densité de population avec les points d'implantation des structures de soin révélant un potentiel déséquilibre.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# On garde les messages et warnings à FALSE, mais on enlève results='hide'
 
+# Lecture des données avec quiet = TRUE pour le silence
 zones <- st_read("iris.gpkg", quiet = TRUE) %>%
   filter(code_insee %in% c("59350", "59512"))
- plot(st_geometry(zones)) qui créait le doublon
 
 pop <- read_excel("lolo.xlsx", skip = 5)
 
 soins <- st_read("soin.geojson", quiet = TRUE) %>%
   st_transform(2154)
 
+# Calculs
 zones_complet <- zones %>%
-  left_join(pop, by = c("code_iris" = "IRIS"))
-
-zones_complet <- zones_complet %>%
+  left_join(pop, by = c("code_iris" = "IRIS")) %>%
   mutate(
     surface_km2 = as.numeric(st_area(geometrie)) / 1000000,
     densite = P22_POP / surface_km2
   )
 
-soins_analyse <- st_join(soins, zones_complet, join = st_intersects)
-
+# LA CARTE
+# 1. La base (densité)
 plot(zones_complet["densite"], 
-     main = "Densité de population entre Lille et Roubaix et leurs disponibilités aux infrastructures de soins")
+     main = "Densité de population et infrastructures de soins",
+     reset = FALSE) # <--- IMPORTANT : ajoutez reset = FALSE ici
 
-plot(st_geometry(soins), add = TRUE, col = "orange", pch = 20)
-
+# 2. Les points (soins)
+plot(st_geometry(soins), 
+     add = TRUE, 
+     col = "orange", 
+     pch = 20, 
+     cex = 0.5) # cex réduit un peu la taille des points pour plus de clarté
 ```
 
 *Nous avons utilisé les données de l'IRIS fournies sur le site Data.gouv, nous permettant d'avoir accès aux contours infracommunales. De cela, nous avons joint ces données avec le nombre et densité de population de l'INSEE, aussi basés par l'IRIS, nous permettant de nous concentrer sur les quartiers des communes.  Enfin à cette jointure, nous avons joint des données géographiques fournies en OSM par OverPassTrubo sur les différents services et offres de soins publics et privées (médecins, cliniques, hôpitaux,etc)*
 
-À Roubaix, la densité d'habitants au kilomètre carré est l'une des plus élevées de la métropole, particulièrement dans les quartiers populaires. Or, à travers notre analyse, on s'aperçoit que la densité ne correspond pas toujours à une concentration proportionnelle de l'offre de soins de premier recours (généralistes, cabinets, etc).
+À Roubaix, la densité d'habitants au kilomètre carré est l'une des plus élevées de la métropole, particulièrement dans les quartiers populaires. Or, à travers notre analyse, on s'aperçoit que la densité ne correspond pas toujours à une concentration proportionnelle de l'offre de soins de premier recours (généralistes, cabinets, etc), *c'est ce qui correspond aux points oranges*.
 
 ### On remarque ici des fortes concentrations humaines au sein des deux centres des deux communes mais Lille est davantage fournit en accès aux soins et services de proximités liés.
 
