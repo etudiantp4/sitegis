@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: "https://etudiantp4.github.io/sitegis/"
 locale: en-US
 title: A Hugo website
 theme: hugo-lithium
