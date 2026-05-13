@@ -2,6 +2,7 @@ baseurl: /
 locale: en-US
 title: A Hugo website
 theme: hugo-lithium
+publishDir: docs
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
