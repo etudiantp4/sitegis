@@ -1,7 +1,7 @@
 ---
-title: Hypothèse de départ
+title: Libérez Roubaix !
 author: etudiantp4
-date: '2026-05-12'
+date: '2026-05-13'
 slug: hypo
 categories: []
 tags: []
@@ -12,3 +12,6 @@ tags: []
 
 ### *Hypothèse de départ :* 
 Roubaix profite des services et infrastructures publics de santé de la métropole de Lille mais demeure moins bien intégrée, souffre d’un besoin de recentralisation pour permettre un meilleur accès et contient une population plus précaire qui serait moins apte  à subvenir à leurs propres soins.
+
+
+*<mark>Site réalisé par Mathis et Lucien Groupe 7</mark>*

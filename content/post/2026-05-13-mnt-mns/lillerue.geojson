@@ -1,0 +1,3633 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-07T10:06:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/14037709",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Gantois",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.057531,
+            50.6260115
+          ],
+          [
+            3.0574931,
+            50.6260855
+          ],
+          [
+            3.0570633,
+            50.6268758
+          ],
+          [
+            3.0570486,
+            50.6269019
+          ],
+          [
+            3.0570213,
+            50.6269552
+          ]
+        ]
+      },
+      "id": "way/14037709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/14037915",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "FR:zone30",
+        "name": "Rue Caumartin",
+        "name:etymology:wikidata": "Q2853511",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0589013,
+            50.6260272
+          ],
+          [
+            3.0588581,
+            50.6261042
+          ],
+          [
+            3.0578513,
+            50.6275027
+          ],
+          [
+            3.0578024,
+            50.6275716
+          ],
+          [
+            3.0577507,
+            50.6276401
+          ]
+        ]
+      },
+      "id": "way/14037915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23209088",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Bruxelles",
+        "name:etymology:wikidata": "Q239",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "wikipedia": "fr:Rue de Bruxelles (Lille)",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0664488,
+            50.6261504
+          ],
+          [
+            3.0664484,
+            50.626191
+          ],
+          [
+            3.0664473,
+            50.6262315
+          ],
+          [
+            3.0664358,
+            50.6266615
+          ],
+          [
+            3.0664275,
+            50.6269721
+          ],
+          [
+            3.0664259,
+            50.6270299
+          ],
+          [
+            3.0664245,
+            50.6270815
+          ],
+          [
+            3.0664069,
+            50.6277384
+          ],
+          [
+            3.0664053,
+            50.6278016
+          ]
+        ]
+      },
+      "id": "way/23209088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23209090",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue Claude Bernard",
+        "name:etymology:wikidata": "Q208230",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:fee": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0673295,
+            50.6270267
+          ],
+          [
+            3.0673311,
+            50.6269709
+          ],
+          [
+            3.0673519,
+            50.6262346
+          ],
+          [
+            3.0673537,
+            50.6261691
+          ]
+        ]
+      },
+      "id": "way/23209090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23209096",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "pictogram",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Malus",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0645665,
+            50.6270365
+          ],
+          [
+            3.0646326,
+            50.6270363
+          ],
+          [
+            3.0646791,
+            50.6270361
+          ],
+          [
+            3.0657188,
+            50.6270324
+          ],
+          [
+            3.066346,
+            50.6270302
+          ],
+          [
+            3.0664259,
+            50.6270299
+          ],
+          [
+            3.0665108,
+            50.6270296
+          ],
+          [
+            3.0672672,
+            50.627027
+          ],
+          [
+            3.0673166,
+            50.6270268
+          ],
+          [
+            3.0673295,
+            50.6270267
+          ]
+        ]
+      },
+      "id": "way/23209096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26323522",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Malpart",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0685139,
+            50.6309942
+          ],
+          [
+            3.0684624,
+            50.6309903
+          ],
+          [
+            3.0684257,
+            50.6309879
+          ],
+          [
+            3.0683569,
+            50.6309802
+          ],
+          [
+            3.066726,
+            50.6308203
+          ],
+          [
+            3.0666594,
+            50.6308062
+          ],
+          [
+            3.0666071,
+            50.6307874
+          ],
+          [
+            3.0665565,
+            50.630762
+          ],
+          [
+            3.0661666,
+            50.6305481
+          ],
+          [
+            3.0660999,
+            50.6305088
+          ]
+        ]
+      },
+      "id": "way/26323522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26323605",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue d'Hazebrouck",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0674991,
+            50.6295448
+          ],
+          [
+            3.067437,
+            50.6295127
+          ],
+          [
+            3.0668899,
+            50.6291159
+          ],
+          [
+            3.0667609,
+            50.6290234
+          ],
+          [
+            3.0666934,
+            50.6289769
+          ]
+        ]
+      },
+      "id": "way/26323605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37548828",
+        "cycleway:right": "separate",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue d'Inkermann",
+        "oneway": "yes",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
+        "short_name": "Rue Inkermann",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0583096,
+            50.62938
+          ],
+          [
+            3.0583701,
+            50.6294252
+          ],
+          [
+            3.0584173,
+            50.6294663
+          ],
+          [
+            3.0584368,
+            50.6294805
+          ],
+          [
+            3.0584756,
+            50.6295087
+          ],
+          [
+            3.0592537,
+            50.6300748
+          ],
+          [
+            3.0605043,
+            50.6309848
+          ],
+          [
+            3.0605997,
+            50.6310543
+          ]
+        ]
+      },
+      "id": "way/37548828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39148481",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Mourmant",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:fee": "yes",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0520797,
+            50.6284252
+          ],
+          [
+            3.0521017,
+            50.6283964
+          ],
+          [
+            3.0527843,
+            50.6275044
+          ],
+          [
+            3.0530991,
+            50.6271186
+          ],
+          [
+            3.0531299,
+            50.6270783
+          ]
+        ]
+      },
+      "id": "way/39148481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39148483",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Colbrant",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0559097,
+            50.6284679
+          ],
+          [
+            3.0559725,
+            50.6285002
+          ],
+          [
+            3.0560424,
+            50.6285457
+          ],
+          [
+            3.0568191,
+            50.6291402
+          ],
+          [
+            3.0568729,
+            50.6291778
+          ]
+        ]
+      },
+      "id": "way/39148483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178009",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de la Paix d'Utrecht",
+        "name:etymology:wikidata": "Q154674",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:right": "lane",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0534041,
+            50.6289779
+          ],
+          [
+            3.0534685,
+            50.628901
+          ],
+          [
+            3.0534969,
+            50.6288671
+          ],
+          [
+            3.0541134,
+            50.6280902
+          ],
+          [
+            3.0543605,
+            50.6277735
+          ],
+          [
+            3.0544011,
+            50.6277216
+          ]
+        ]
+      },
+      "id": "way/39178009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178010",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Alphonse Mercier",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0539619,
+            50.6291958
+          ],
+          [
+            3.0539148,
+            50.629245
+          ],
+          [
+            3.0534817,
+            50.6296976
+          ],
+          [
+            3.053459,
+            50.6297218
+          ],
+          [
+            3.0534377,
+            50.6297446
+          ],
+          [
+            3.0533934,
+            50.629791
+          ],
+          [
+            3.0531712,
+            50.6300105
+          ],
+          [
+            3.0528175,
+            50.6303654
+          ],
+          [
+            3.0527748,
+            50.6304071
+          ],
+          [
+            3.0522644,
+            50.630912
+          ],
+          [
+            3.0522308,
+            50.6309441
+          ],
+          [
+            3.0522112,
+            50.6309628
+          ],
+          [
+            3.0521568,
+            50.6310167
+          ],
+          [
+            3.0518556,
+            50.631313
+          ],
+          [
+            3.0516965,
+            50.6314694
+          ],
+          [
+            3.0511464,
+            50.632009
+          ],
+          [
+            3.0511106,
+            50.6320441
+          ],
+          [
+            3.0510956,
+            50.6320588
+          ],
+          [
+            3.0510247,
+            50.6321355
+          ]
+        ]
+      },
+      "id": "way/39178010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178011",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Flandre",
+        "name:etymology:wikidata": "Q157070",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0531299,
+            50.6270783
+          ],
+          [
+            3.0540559,
+            50.6275544
+          ],
+          [
+            3.0541079,
+            50.6275806
+          ],
+          [
+            3.0543251,
+            50.6276843
+          ],
+          [
+            3.0544011,
+            50.6277216
+          ],
+          [
+            3.0549118,
+            50.627972
+          ],
+          [
+            3.0550958,
+            50.628062
+          ],
+          [
+            3.0551895,
+            50.6281098
+          ],
+          [
+            3.0552443,
+            50.6281372
+          ],
+          [
+            3.0556343,
+            50.6283309
+          ],
+          [
+            3.0558266,
+            50.6284285
+          ],
+          [
+            3.0559097,
+            50.6284679
+          ]
+        ]
+      },
+      "id": "way/39178011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178012",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de la Vieille Aventure",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0540559,
+            50.6275544
+          ],
+          [
+            3.0540196,
+            50.6275992
+          ],
+          [
+            3.0531389,
+            50.6287757
+          ],
+          [
+            3.0531124,
+            50.628811
+          ],
+          [
+            3.0530834,
+            50.6288477
+          ]
+        ]
+      },
+      "id": "way/39178012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178014",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue d'Alger",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0551895,
+            50.6281098
+          ],
+          [
+            3.0552176,
+            50.6280755
+          ],
+          [
+            3.0558185,
+            50.6273078
+          ],
+          [
+            3.0558378,
+            50.6272571
+          ]
+        ]
+      },
+      "id": "way/39178014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178016",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Montgolfier",
+        "name:etymology:wikidata": "Q3065922",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:fee": "no",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0541134,
+            50.6280902
+          ],
+          [
+            3.054169,
+            50.6281078
+          ],
+          [
+            3.0546876,
+            50.6282716
+          ]
+        ]
+      },
+      "id": "way/39178016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178017",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Henri Kolb",
+        "name:etymology:wikidata": "Q99533420",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0570213,
+            50.6269552
+          ],
+          [
+            3.0569803,
+            50.6270275
+          ],
+          [
+            3.0567499,
+            50.6273997
+          ],
+          [
+            3.0567142,
+            50.6274584
+          ],
+          [
+            3.05668,
+            50.6275131
+          ],
+          [
+            3.0564345,
+            50.6278229
+          ],
+          [
+            3.0559693,
+            50.6284014
+          ],
+          [
+            3.0559097,
+            50.6284679
+          ],
+          [
+            3.0558517,
+            50.6285379
+          ],
+          [
+            3.0550757,
+            50.6295091
+          ],
+          [
+            3.0550562,
+            50.6295335
+          ],
+          [
+            3.0550055,
+            50.6295965
+          ]
+        ]
+      },
+      "id": "way/39178017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178018",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue de Constantine",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.055184,
+            50.6271141
+          ],
+          [
+            3.0552302,
+            50.6270451
+          ],
+          [
+            3.0554325,
+            50.6267429
+          ],
+          [
+            3.0556126,
+            50.6264692
+          ],
+          [
+            3.0558909,
+            50.6260617
+          ],
+          [
+            3.0559025,
+            50.6260373
+          ],
+          [
+            3.0559106,
+            50.6260075
+          ]
+        ]
+      },
+      "id": "way/39178018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178020",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Louis Faure",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:fee": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0529709,
+            50.6263629
+          ],
+          [
+            3.0530034,
+            50.6263175
+          ],
+          [
+            3.0532242,
+            50.6260092
+          ],
+          [
+            3.0532518,
+            50.6259706
+          ],
+          [
+            3.0532817,
+            50.6259263
+          ]
+        ]
+      },
+      "id": "way/39178020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178023",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue d'Anvers",
+        "name:etymology:wikidata": "Q12892",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0539619,
+            50.6291958
+          ],
+          [
+            3.0540246,
+            50.6291159
+          ],
+          [
+            3.0546876,
+            50.6282716
+          ],
+          [
+            3.0548833,
+            50.6280153
+          ],
+          [
+            3.0549118,
+            50.627972
+          ]
+        ]
+      },
+      "id": "way/39178023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39178024",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Ratisbonne",
+        "name:etymology:wikidata": "Q2978",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "concrete",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0564622,
+            50.6303509
+          ],
+          [
+            3.0564302,
+            50.6303266
+          ],
+          [
+            3.056399,
+            50.6303028
+          ],
+          [
+            3.0563664,
+            50.630283
+          ],
+          [
+            3.0563119,
+            50.6302692
+          ],
+          [
+            3.0557674,
+            50.6301789
+          ]
+        ]
+      },
+      "id": "way/39178024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39363183",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "sidewalk": "right",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0546039,
+            50.6300554
+          ],
+          [
+            3.0546184,
+            50.6300433
+          ],
+          [
+            3.054637,
+            50.6300338
+          ],
+          [
+            3.0546587,
+            50.6300274
+          ],
+          [
+            3.0546822,
+            50.6300245
+          ],
+          [
+            3.054706,
+            50.6300253
+          ],
+          [
+            3.0547175,
+            50.6300271
+          ],
+          [
+            3.0547426,
+            50.6300344
+          ],
+          [
+            3.0547549,
+            50.6300404
+          ],
+          [
+            3.0547656,
+            50.6300476
+          ],
+          [
+            3.0547744,
+            50.6300557
+          ],
+          [
+            3.0547811,
+            50.6300647
+          ],
+          [
+            3.0547855,
+            50.6300741
+          ],
+          [
+            3.0547876,
+            50.6300872
+          ],
+          [
+            3.0547855,
+            50.6301002
+          ],
+          [
+            3.0547791,
+            50.6301126
+          ],
+          [
+            3.0547688,
+            50.6301239
+          ],
+          [
+            3.0547551,
+            50.6301337
+          ],
+          [
+            3.0547384,
+            50.6301414
+          ],
+          [
+            3.0547145,
+            50.6301477
+          ],
+          [
+            3.0546889,
+            50.6301498
+          ],
+          [
+            3.0546632,
+            50.6301476
+          ],
+          [
+            3.0546394,
+            50.6301413
+          ],
+          [
+            3.0546237,
+            50.630134
+          ],
+          [
+            3.0546105,
+            50.630125
+          ],
+          [
+            3.0546004,
+            50.6301145
+          ],
+          [
+            3.0545936,
+            50.630103
+          ],
+          [
+            3.0545906,
+            50.6300908
+          ],
+          [
+            3.0545913,
+            50.6300785
+          ],
+          [
+            3.0545958,
+            50.6300666
+          ],
+          [
+            3.0546039,
+            50.6300554
+          ]
+        ]
+      },
+      "id": "way/39363183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40784709",
+        "cycleway": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Watteau",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0657117,
+            50.6296201
+          ],
+          [
+            3.065738,
+            50.6296383
+          ],
+          [
+            3.0658097,
+            50.6296879
+          ],
+          [
+            3.0658425,
+            50.6297106
+          ],
+          [
+            3.0664779,
+            50.6301842
+          ],
+          [
+            3.0665243,
+            50.630221
+          ]
+        ]
+      },
+      "id": "way/40784709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40784726",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Denain",
+        "name:etymology:wikidata": "Q212959",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0674991,
+            50.6295448
+          ],
+          [
+            3.0678684,
+            50.6295796
+          ],
+          [
+            3.0681128,
+            50.6296007
+          ],
+          [
+            3.068198,
+            50.629608
+          ],
+          [
+            3.0682856,
+            50.6296137
+          ],
+          [
+            3.0683087,
+            50.6296152
+          ],
+          [
+            3.0683686,
+            50.6296192
+          ]
+        ]
+      },
+      "id": "way/40784726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40784727",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Lydéric",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0655505,
+            50.6308765
+          ],
+          [
+            3.065653,
+            50.6308129
+          ],
+          [
+            3.0659711,
+            50.6305964
+          ],
+          [
+            3.0660999,
+            50.6305088
+          ],
+          [
+            3.0662422,
+            50.6304141
+          ],
+          [
+            3.0665243,
+            50.630221
+          ],
+          [
+            3.066686,
+            50.6301087
+          ],
+          [
+            3.0674348,
+            50.629584
+          ],
+          [
+            3.0674991,
+            50.6295448
+          ]
+        ]
+      },
+      "id": "way/40784727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40848251",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "pictogram",
+        "cycleway:left:oneway": "-1",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxweight": "12",
+        "maxweightrating": "12",
+        "name": "Rue du Réduit",
+        "note": "maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0698729,
+            50.6297478
+          ],
+          [
+            3.0706825,
+            50.6299038
+          ],
+          [
+            3.0712755,
+            50.6300198
+          ],
+          [
+            3.0718399,
+            50.63013
+          ],
+          [
+            3.072333,
+            50.6302337
+          ],
+          [
+            3.0724085,
+            50.6302496
+          ],
+          [
+            3.0724818,
+            50.630265
+          ],
+          [
+            3.0725524,
+            50.6302798
+          ]
+        ]
+      },
+      "id": "way/40848251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40848252",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "pictogram",
+        "cycleway:left:oneway": "-1",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxweight": "12",
+        "maxweightrating": "12",
+        "name": "Rue Molière",
+        "note": "maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0698604,
+            50.6283083
+          ],
+          [
+            3.0698595,
+            50.6283704
+          ],
+          [
+            3.0698589,
+            50.62841
+          ],
+          [
+            3.0698585,
+            50.6284342
+          ],
+          [
+            3.0698435,
+            50.6296832
+          ],
+          [
+            3.0698452,
+            50.629702
+          ],
+          [
+            3.0698492,
+            50.6297232
+          ],
+          [
+            3.0698559,
+            50.6297347
+          ],
+          [
+            3.0698729,
+            50.6297478
+          ]
+        ]
+      },
+      "id": "way/40848252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40848254",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Camille Guérin",
+        "name:etymology:wikidata": "Q1029190",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "sidewalk:left:surface": "concrete",
+        "sidewalk:right:surface": "asphalt",
+        "source:maxspeed": "FR:zone30",
+        "source:width": "ARCore",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "width": "7.3",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0762988,
+            50.6274299
+          ],
+          [
+            3.0762731,
+            50.6274122
+          ],
+          [
+            3.0762457,
+            50.627399
+          ],
+          [
+            3.0762041,
+            50.6273871
+          ],
+          [
+            3.076163,
+            50.6273801
+          ],
+          [
+            3.076114,
+            50.6273776
+          ],
+          [
+            3.0738769,
+            50.6273996
+          ],
+          [
+            3.0738058,
+            50.6273999
+          ],
+          [
+            3.0737823,
+            50.6274
+          ],
+          [
+            3.0736966,
+            50.6274004
+          ],
+          [
+            3.0727388,
+            50.6274046
+          ],
+          [
+            3.0706404,
+            50.6274138
+          ],
+          [
+            3.0705639,
+            50.6274141
+          ],
+          [
+            3.0697638,
+            50.6274118
+          ],
+          [
+            3.069722,
+            50.6274108
+          ],
+          [
+            3.0696619,
+            50.6274102
+          ],
+          [
+            3.0696042,
+            50.6274097
+          ]
+        ]
+      },
+      "id": "way/40848254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41432777",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Nicolas Leblanc",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0613394,
+            50.6306407
+          ],
+          [
+            3.0613383,
+            50.6305443
+          ],
+          [
+            3.0613301,
+            50.6298108
+          ],
+          [
+            3.0613257,
+            50.6294187
+          ],
+          [
+            3.0613077,
+            50.6283323
+          ]
+        ]
+      },
+      "id": "way/41432777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41432779",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Fleurus",
+        "name:etymology:wikidata": "Q314922",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0591643,
+            50.6260318
+          ],
+          [
+            3.059164,
+            50.6260795
+          ],
+          [
+            3.0591734,
+            50.6260999
+          ],
+          [
+            3.0591906,
+            50.6261218
+          ],
+          [
+            3.0598309,
+            50.6266054
+          ],
+          [
+            3.0599308,
+            50.6266781
+          ],
+          [
+            3.0607007,
+            50.6272513
+          ],
+          [
+            3.0607484,
+            50.6272961
+          ],
+          [
+            3.0607622,
+            50.6273396
+          ]
+        ]
+      },
+      "id": "way/41432779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41432780",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Manuel",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:fee": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0575756,
+            50.6276424
+          ],
+          [
+            3.057482,
+            50.6276353
+          ],
+          [
+            3.0568714,
+            50.6274951
+          ],
+          [
+            3.0568128,
+            50.6274818
+          ],
+          [
+            3.0567142,
+            50.6274584
+          ],
+          [
+            3.0566189,
+            50.6274379
+          ],
+          [
+            3.0565386,
+            50.6274201
+          ],
+          [
+            3.0562223,
+            50.627346
+          ],
+          [
+            3.0559273,
+            50.6272787
+          ],
+          [
+            3.0558378,
+            50.6272571
+          ],
+          [
+            3.0557544,
+            50.6272395
+          ],
+          [
+            3.055184,
+            50.6271141
+          ],
+          [
+            3.0551169,
+            50.6271009
+          ],
+          [
+            3.0549797,
+            50.6270622
+          ],
+          [
+            3.0547249,
+            50.6269779
+          ],
+          [
+            3.0546487,
+            50.6269499
+          ],
+          [
+            3.0545854,
+            50.6269257
+          ],
+          [
+            3.054528,
+            50.6269057
+          ],
+          [
+            3.0530027,
+            50.6263742
+          ],
+          [
+            3.0529709,
+            50.6263629
+          ]
+        ]
+      },
+      "id": "way/41432780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41432781",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "FR:zone30",
+        "motor_vehicle:conditional": "no @ (Mo-Tu 08:15-09:00,16:15-17:00; Th-Fr 08:15-09:00,16:15-17:00)",
+        "name": "Rue Fabricy",
+        "note": "rue scolaire",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0598309,
+            50.6266054
+          ],
+          [
+            3.0597935,
+            50.6266617
+          ],
+          [
+            3.0597847,
+            50.6266756
+          ],
+          [
+            3.0593684,
+            50.6273342
+          ],
+          [
+            3.0591982,
+            50.6276034
+          ],
+          [
+            3.0591745,
+            50.6276409
+          ],
+          [
+            3.0591604,
+            50.6276618
+          ]
+        ]
+      },
+      "id": "way/41432781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42709297",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue du Faubourg Notre-Dame",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0546761,
+            50.6306058
+          ],
+          [
+            3.0545141,
+            50.6306187
+          ],
+          [
+            3.0537915,
+            50.6306613
+          ],
+          [
+            3.0534665,
+            50.6306787
+          ],
+          [
+            3.0533967,
+            50.6306623
+          ],
+          [
+            3.0528032,
+            50.6304188
+          ],
+          [
+            3.0527748,
+            50.6304071
+          ]
+        ]
+      },
+      "id": "way/42709297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42777448",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue de l'Amidonnerie",
+        "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0546824,
+            50.6294722
+          ],
+          [
+            3.0542997,
+            50.6299831
+          ]
+        ]
+      },
+      "id": "way/42777448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51436545",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Place Sébastopol",
+        "name:etymology:wikidata": "Q815216",
+        "parking:left": "lane",
+        "parking:left:fee": "yes",
+        "parking:left:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0582372,
+            50.6284487
+          ],
+          [
+            3.0580959,
+            50.6285247
+          ],
+          [
+            3.0580383,
+            50.6285552
+          ],
+          [
+            3.0578567,
+            50.6286522
+          ],
+          [
+            3.057003,
+            50.6291083
+          ],
+          [
+            3.0568729,
+            50.6291778
+          ]
+        ]
+      },
+      "id": "way/51436545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84690884",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Baptiste Monnoyer",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0647325,
+            50.6314301
+          ],
+          [
+            3.0646702,
+            50.6313826
+          ],
+          [
+            3.0638452,
+            50.6307762
+          ],
+          [
+            3.06383,
+            50.6307655
+          ],
+          [
+            3.0637732,
+            50.630721
+          ],
+          [
+            3.0637502,
+            50.6307023
+          ],
+          [
+            3.0636829,
+            50.6306525
+          ]
+        ]
+      },
+      "id": "way/84690884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89116989",
+        "cycleway:left": "lane",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Rue Ernest Deconynck",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "source:width": "ARCore",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "width": "5.7",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.056187,
+            50.6304922
+          ],
+          [
+            3.0562317,
+            50.6305238
+          ],
+          [
+            3.0562814,
+            50.6305588
+          ],
+          [
+            3.0562963,
+            50.6305754
+          ],
+          [
+            3.0562968,
+            50.6305911
+          ],
+          [
+            3.0562921,
+            50.6306081
+          ],
+          [
+            3.0562602,
+            50.6306686
+          ],
+          [
+            3.0560816,
+            50.6309393
+          ],
+          [
+            3.056061,
+            50.6309736
+          ],
+          [
+            3.0560403,
+            50.6310079
+          ]
+        ]
+      },
+      "id": "way/89116989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95001700",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue du Soleil Levant",
+        "oneway": "yes",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0558378,
+            50.6272571
+          ],
+          [
+            3.0558648,
+            50.6271963
+          ],
+          [
+            3.0558738,
+            50.6271773
+          ],
+          [
+            3.0560799,
+            50.6268622
+          ],
+          [
+            3.0564063,
+            50.6263626
+          ],
+          [
+            3.0564263,
+            50.626333
+          ],
+          [
+            3.0564578,
+            50.6262672
+          ]
+        ]
+      },
+      "id": "way/95001700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95001716",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Jean Bart",
+        "name:etymology:wikidata": "Q333388",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "wikipedia": "fr:Rue Jean-Bart (Lille)",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0664053,
+            50.6278016
+          ],
+          [
+            3.0658498,
+            50.6277921
+          ],
+          [
+            3.0647716,
+            50.6277736
+          ],
+          [
+            3.0646986,
+            50.6277724
+          ],
+          [
+            3.0646465,
+            50.6277715
+          ],
+          [
+            3.0645664,
+            50.6277701
+          ],
+          [
+            3.0635949,
+            50.6277535
+          ],
+          [
+            3.0621812,
+            50.6277325
+          ],
+          [
+            3.0621256,
+            50.6277316
+          ],
+          [
+            3.0620204,
+            50.6277288
+          ]
+        ]
+      },
+      "id": "way/95001716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95067476",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue des Meuniers",
+        "name:etymology:wikidata": "Q694116",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:left": "no_parking",
+        "parking:lane:right": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0566124,
+            50.625971
+          ],
+          [
+            3.056591,
+            50.6260133
+          ],
+          [
+            3.0564997,
+            50.6261872
+          ],
+          [
+            3.0564818,
+            50.6262215
+          ],
+          [
+            3.0564578,
+            50.6262672
+          ]
+        ]
+      },
+      "id": "way/95067476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95067479",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Jeanne d'Arc",
+        "name:etymology:wikidata": "Q7226",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "wikipedia": "fr:Rue Jeanne-d'Arc (Lille)",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0646465,
+            50.6277715
+          ],
+          [
+            3.0646396,
+            50.6277053
+          ],
+          [
+            3.0646056,
+            50.6273945
+          ],
+          [
+            3.0645665,
+            50.6270365
+          ],
+          [
+            3.0645344,
+            50.6266813
+          ],
+          [
+            3.0645324,
+            50.626636
+          ],
+          [
+            3.0645314,
+            50.626607
+          ],
+          [
+            3.0645329,
+            50.6265779
+          ],
+          [
+            3.0645354,
+            50.6265426
+          ],
+          [
+            3.0645364,
+            50.6264884
+          ],
+          [
+            3.0645332,
+            50.6264548
+          ],
+          [
+            3.0645307,
+            50.6264124
+          ],
+          [
+            3.064525,
+            50.6263657
+          ]
+        ]
+      },
+      "id": "way/95067479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95565286",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Masséna",
+        "name:etymology:wikidata": "Q242609",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0550055,
+            50.6295965
+          ],
+          [
+            3.0549678,
+            50.6296448
+          ],
+          [
+            3.0549443,
+            50.6296749
+          ],
+          [
+            3.0547474,
+            50.6299265
+          ],
+          [
+            3.0547373,
+            50.6299441
+          ],
+          [
+            3.0547261,
+            50.6299672
+          ],
+          [
+            3.0547181,
+            50.6299879
+          ],
+          [
+            3.0547158,
+            50.6300049
+          ],
+          [
+            3.0547175,
+            50.6300271
+          ]
+        ]
+      },
+      "id": "way/95565286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95565295",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Rue Jeanne d'Arc",
+        "name:etymology:wikidata": "Q7226",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:condition:both": "ticket",
+        "parking:lane:both": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0649938,
+            50.6299174
+          ],
+          [
+            3.0649479,
+            50.6298826
+          ],
+          [
+            3.0649159,
+            50.6298533
+          ],
+          [
+            3.0648867,
+            50.6298267
+          ],
+          [
+            3.0648647,
+            50.6297942
+          ],
+          [
+            3.0648516,
+            50.6297649
+          ],
+          [
+            3.0648426,
+            50.6297257
+          ],
+          [
+            3.0648083,
+            50.6293885
+          ],
+          [
+            3.0647706,
+            50.6289952
+          ]
+        ]
+      },
+      "id": "way/95565295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103066475",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Manuel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0529709,
+            50.6263629
+          ],
+          [
+            3.0526374,
+            50.626254
+          ],
+          [
+            3.052517,
+            50.6262137
+          ],
+          [
+            3.0523866,
+            50.6261707
+          ]
+        ]
+      },
+      "id": "way/103066475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145895047",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue Jeanne d'Arc",
+        "name:etymology:wikidata": "Q7226",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.064525,
+            50.6263657
+          ],
+          [
+            3.0645128,
+            50.6262604
+          ],
+          [
+            3.0645056,
+            50.6262174
+          ]
+        ]
+      },
+      "id": "way/145895047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148447566",
+        "cycleway:left": "no",
+        "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "pictogram",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "FR:zone30",
+        "name": "Rue Bichat",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "source:width": "ARCore",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "width": "7",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0702539,
+            50.6282976
+          ],
+          [
+            3.0702673,
+            50.6282601
+          ],
+          [
+            3.0702752,
+            50.6282345
+          ],
+          [
+            3.070288,
+            50.6281976
+          ],
+          [
+            3.0705491,
+            50.6274561
+          ],
+          [
+            3.0705565,
+            50.6274351
+          ],
+          [
+            3.0705639,
+            50.6274141
+          ]
+        ]
+      },
+      "id": "way/148447566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155339338",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "FR:urban",
+        "name": "Rue Ratisbonne",
+        "name:etymology:wikidata": "Q2978",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:lane:left": "parallel",
+        "parking:lane:left:parallel": "on_street",
+        "parking:left": "lane",
+        "parking:left:fee": "no",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0546039,
+            50.6300554
+          ],
+          [
+            3.0545321,
+            50.6300378
+          ],
+          [
+            3.0544651,
+            50.6300217
+          ],
+          [
+            3.0542997,
+            50.6299831
+          ],
+          [
+            3.054214,
+            50.6299631
+          ],
+          [
+            3.0541388,
+            50.6299421
+          ],
+          [
+            3.0535234,
+            50.6297683
+          ],
+          [
+            3.0534377,
+            50.6297446
+          ],
+          [
+            3.0533604,
+            50.6297251
+          ],
+          [
+            3.0526228,
+            50.6295208
+          ],
+          [
+            3.0524995,
+            50.6294845
+          ],
+          [
+            3.0518682,
+            50.629307
+          ],
+          [
+            3.0517869,
+            50.6292884
+          ],
+          [
+            3.051696,
+            50.6292701
+          ],
+          [
+            3.050121,
+            50.6290048
+          ],
+          [
+            3.0498587,
+            50.6289595
+          ],
+          [
+            3.0497378,
+            50.628936
+          ],
+          [
+            3.0496436,
+            50.6289139
+          ]
+        ]
+      },
+      "id": "way/155339338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202818249",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Flandre",
+        "name:etymology:wikidata": "Q157070",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "source:width": "ARCore",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "width": "2.9",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0515082,
+            50.6262645
+          ],
+          [
+            3.0516008,
+            50.6263086
+          ],
+          [
+            3.0520937,
+            50.6265526
+          ],
+          [
+            3.0521326,
+            50.6265719
+          ],
+          [
+            3.0523306,
+            50.6266686
+          ],
+          [
+            3.0523514,
+            50.6266777
+          ],
+          [
+            3.0531299,
+            50.6270783
+          ]
+        ]
+      },
+      "id": "way/202818249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230243288",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de la Renaissance",
+        "name:etymology:wikidata": "Q4692",
+        "sidewalk": "right",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0552443,
+            50.6281372
+          ],
+          [
+            3.0552046,
+            50.6281852
+          ],
+          [
+            3.0546761,
+            50.6288537
+          ]
+        ]
+      },
+      "id": "way/230243288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/246699881",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Jean Bart",
+        "name:etymology:wikidata": "Q333388",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "wikipedia": "fr:Rue Jean-Bart (Lille)",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0620204,
+            50.6277288
+          ],
+          [
+            3.0619944,
+            50.6277289
+          ],
+          [
+            3.0618398,
+            50.627729
+          ],
+          [
+            3.0617635,
+            50.6277291
+          ]
+        ]
+      },
+      "id": "way/246699881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253460050",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Fontenelle",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0545854,
+            50.6269257
+          ],
+          [
+            3.0546198,
+            50.6268756
+          ],
+          [
+            3.0548445,
+            50.6265293
+          ],
+          [
+            3.0549897,
+            50.626305
+          ],
+          [
+            3.0556126,
+            50.6264692
+          ]
+        ]
+      },
+      "id": "way/253460050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497944366",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue des Pyramides",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0607135,
+            50.6276683
+          ],
+          [
+            3.0606771,
+            50.62768
+          ],
+          [
+            3.0606352,
+            50.6276881
+          ],
+          [
+            3.0606099,
+            50.627689
+          ],
+          [
+            3.0597226,
+            50.6276724
+          ],
+          [
+            3.0591604,
+            50.6276618
+          ],
+          [
+            3.0579371,
+            50.6276432
+          ],
+          [
+            3.0577507,
+            50.6276401
+          ],
+          [
+            3.0576782,
+            50.627643
+          ],
+          [
+            3.0575756,
+            50.6276424
+          ]
+        ]
+      },
+      "id": "way/497944366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497944367",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Place Philippe Lebon",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0607622,
+            50.6273396
+          ],
+          [
+            3.0607651,
+            50.627361
+          ],
+          [
+            3.0607685,
+            50.62739
+          ],
+          [
+            3.0607679,
+            50.6275994
+          ],
+          [
+            3.060752,
+            50.6276277
+          ],
+          [
+            3.0607419,
+            50.6276448
+          ],
+          [
+            3.0607135,
+            50.6276683
+          ]
+        ]
+      },
+      "id": "way/497944367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524132250",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Masséna",
+        "name:etymology:wikidata": "Q242609",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0547668,
+            50.6312496
+          ],
+          [
+            3.0547615,
+            50.6312133
+          ],
+          [
+            3.0547529,
+            50.6311543
+          ],
+          [
+            3.0546761,
+            50.6306058
+          ],
+          [
+            3.0546197,
+            50.6301944
+          ],
+          [
+            3.0546254,
+            50.630168
+          ],
+          [
+            3.0546394,
+            50.6301413
+          ]
+        ]
+      },
+      "id": "way/524132250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554985466",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de Bone",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0549588,
+            50.6272653
+          ],
+          [
+            3.0550347,
+            50.6271974
+          ],
+          [
+            3.0550709,
+            50.6271566
+          ],
+          [
+            3.0551169,
+            50.6271009
+          ]
+        ]
+      },
+      "id": "way/554985466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/578651768",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Rue Jeanne d'Arc",
+        "name:etymology:wikidata": "Q7226",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0650731,
+            50.6299661
+          ],
+          [
+            3.0649938,
+            50.6299174
+          ]
+        ]
+      },
+      "id": "way/578651768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/579777577",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Rue Jeanne d'Arc",
+        "name:etymology:wikidata": "Q7226",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0647706,
+            50.6289952
+          ],
+          [
+            3.0647631,
+            50.628903
+          ],
+          [
+            3.0647566,
+            50.6288399
+          ],
+          [
+            3.0647541,
+            50.6288075
+          ],
+          [
+            3.0647487,
+            50.6287395
+          ],
+          [
+            3.064738,
+            50.6286388
+          ],
+          [
+            3.064726,
+            50.6285118
+          ],
+          [
+            3.0646908,
+            50.6281908
+          ],
+          [
+            3.0646529,
+            50.6278448
+          ],
+          [
+            3.0646465,
+            50.6277715
+          ]
+        ]
+      },
+      "id": "way/579777577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665071996",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Rue Jean Sans Peur",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "width": "8",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0560403,
+            50.6310079
+          ],
+          [
+            3.0559834,
+            50.63097
+          ],
+          [
+            3.0557674,
+            50.6308259
+          ],
+          [
+            3.0557399,
+            50.6308076
+          ],
+          [
+            3.0557221,
+            50.6307957
+          ],
+          [
+            3.0556787,
+            50.6307668
+          ],
+          [
+            3.0556318,
+            50.6307355
+          ],
+          [
+            3.055613,
+            50.6307229
+          ],
+          [
+            3.0555913,
+            50.6307084
+          ],
+          [
+            3.0547896,
+            50.6301738
+          ],
+          [
+            3.0547715,
+            50.6301618
+          ],
+          [
+            3.0547384,
+            50.6301414
+          ]
+        ]
+      },
+      "id": "way/665071996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/687315298",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Place Sébastopol",
+        "name:etymology:wikidata": "Q815216",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:fee": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0568729,
+            50.6291778
+          ],
+          [
+            3.0569545,
+            50.6292451
+          ],
+          [
+            3.0575474,
+            50.6296929
+          ],
+          [
+            3.0575609,
+            50.6297034
+          ],
+          [
+            3.0575748,
+            50.6297141
+          ],
+          [
+            3.057623,
+            50.6297481
+          ]
+        ]
+      },
+      "id": "way/687315298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158931711",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Ratisbonne",
+        "name:etymology:wikidata": "Q2978",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "concrete",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0557674,
+            50.6301789
+          ],
+          [
+            3.0549988,
+            50.6300624
+          ],
+          [
+            3.0549442,
+            50.6300576
+          ],
+          [
+            3.054904,
+            50.6300563
+          ],
+          [
+            3.0548436,
+            50.6300603
+          ],
+          [
+            3.0548179,
+            50.6300639
+          ],
+          [
+            3.0547855,
+            50.6300741
+          ]
+        ]
+      },
+      "id": "way/1158931711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1409465595",
+        "cycleway:both": "track",
+        "cycleway:both:lane": "exclusive",
+        "cycleway:left:oneway": "-1",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Nicolas Leblanc",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0613077,
+            50.6283323
+          ],
+          [
+            3.0613084,
+            50.6282375
+          ],
+          [
+            3.0613089,
+            50.6281784
+          ],
+          [
+            3.0613091,
+            50.6281566
+          ],
+          [
+            3.0613093,
+            50.6281258
+          ]
+        ]
+      },
+      "id": "way/1409465595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1467076004",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "pictogram",
+        "cycleway:left:oneway": "-1",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Malus",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "lane",
+        "parking:both:fee": "yes",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:zone30",
+        "start_date": "1858",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0684134,
+            50.6270229
+          ],
+          [
+            3.0682864,
+            50.6270233
+          ],
+          [
+            3.0673295,
+            50.6270267
+          ]
+        ]
+      },
+      "id": "way/1467076004"
+    }
+  ]
+}

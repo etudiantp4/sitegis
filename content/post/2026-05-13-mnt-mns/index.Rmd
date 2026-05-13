@@ -1,0 +1,37 @@
+---
+title: MNT MNS
+author: etudiantp4
+date: '2026-05-13'
+slug: mnt-mns
+categories: []
+tags: []
+---
+
+### Ensuite, il y a une nécessité à la facilité de circulation et la gestion des flux permettant aux services de secours et urgences d'être efficaces. 
+Les pompiers, médecins et urgentistes ont besoin de voies praticables et larges pour permettre une circulation fonctionnelle et subvenir aux besoins des habitants.
+
+### <span style="color:red">Pour observer les possibles différences d'accès rapides des urgences et secours, l'utilisation d'un MNT/MNS en géographie urbaine permet d'extraire une donnée cruciale pour l'accessibilité : la morphologie du réseau des rues.</span>
+
+## MNT/MNS des structures des rues de Lille (à gauche) et Roubaix (à droite)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(patchwork)
+library(sf)
+library(ggplot2)
+
+# Chargement silencieux
+lille <- st_read("lillerue.geojson", quiet = TRUE)
+roubaix <- st_read("rue.geojson", quiet = TRUE)
+
+p1 <- ggplot(lille) + geom_sf() + labs(title = "Lille") + theme_void()
+p2 <- ggplot(roubaix) + geom_sf() + labs(title = "Roubaix") + theme_void()
+
+# Affichage du graphique uniquement
+p1 + p2
+```
+
+*Nous avons utilisé des données OSM via Over Pass Turbo pour filtrer et avoir un aperçu des rues.*
+
+À Roubaix, <mark>héritière d'un passé industriel dense</mark>, le tissu urbain est marqué par une grande proportion de rues étroites et de "courées" (habitats ouvriers enclavés). En traitant ces données, on peut cartographier les zones où la largeur de la chaussée est inférieure au seuil nécessaire pour le passage rapide des véhicules de secours.
+
+Alors que Lille a bénéficié de percées haussmanniennes et de restructurations majeures facilitant la circulation, certains quartiers roubaisiens souffrent d'un enclavement morphologique. Les rues étroites, couplées au stationnement souvent saturé, créent de nombreux "points de friction" qui ralentissent les interventions d'urgence. Ici, la géographie des bâtiments devient une composante directe de l'inégalité de soin : <mark>à distance égale d'un hôpital, le temps d'intervention sera plus long dans le tissu dense de Roubaix que dans les grands axes lillois.</mark>
