@@ -13,7 +13,7 @@
       <link>/2026/05/13/lib-rez-roubaix/</link>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
       <guid>/2026/05/13/lib-rez-roubaix/</guid>
-      <description>&lt;p&gt;grgrg&lt;/p&gt;</description>
+      <description>&lt;p&gt;grgrg&#xA;gr&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello R Markdown</title>
