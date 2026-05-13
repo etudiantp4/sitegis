@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.161.1">
 
 
-<title>Données Filosofi - A Hugo website</title>
-<meta property="og:title" content="Données Filosofi - A Hugo website">
+<title>Analyse de données - A Hugo website</title>
+<meta property="og:title" content="Analyse de données - A Hugo website">
 
 
   <link href='https://etudiantp4.github.io/sitegis/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -19,6 +19,11 @@
 
 
 
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
 
 
 
@@ -57,10 +62,10 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">5 min read</span>
     
 
-    <h1 class="article-title">Données Filosofi</h1>
+    <h1 class="article-title">Analyse de données</h1>
 
     
     <span class="article-date">2026-05-13</span>
@@ -78,6 +83,53 @@
 <div id="lanalyse-à-travers-le-prisme-des-données-filosofi-insee-permet-de-mettre-en-lumière-avant-tout-une-différence-notable-de-niveau-de-vie-entre-les-deux-communes-mais-aussi-une-ségrégation-spatiale-majeure-au-sein-de-la-métropole-lilloise." class="section level3">
 <h3>L’analyse à travers le prisme des données Filosofi (INSEE) permet de mettre en lumière avant tout une différence notable de niveau de vie entre les deux communes mais aussi, une ségrégation spatiale majeure au sein de la métropole lilloise.</h3>
 <p>En observant ce graphique “Niveau de vie médian par quartier”, on remarque déjà une nette différence avec Lille qui possède un niveau de vie par habitant plus élevé que celui de Roubaix. Seulement, on remarque aussi un écart assez prononcé pour la ville de Lille, ce qui indique une forte ségrégation spatiale entre les différents quartiers de la ville avec certains aisés (notamment le Vieux-Lille) ou d’autres plus pauvres (Moulins). L’écart est plus réduit à Roubaix, ce qui montre un écart de richesse moins prononcé mais un niveau de vie inférieur à la ville de Lille.</p>
+</div>
+<div id="ensuite-il-y-a-une-nécessité-à-la-facilité-de-circulation-et-la-gestion-des-flux-permettant-aux-services-de-secours-et-urgences-dêtre-efficaces." class="section level3">
+<h3>Ensuite, il y a une nécessité à la facilité de circulation et la gestion des flux permettant aux services de secours et urgences d’être efficaces.</h3>
+<p>Les pompiers, médecins et urgentistes ont besoin de voies praticables et larges pour permettre une circulation fonctionnelle et subvenir aux besoins des habitants.</p>
+</div>
+<div id="pour-observer-les-possibles-différences-daccès-rapides-des-urgences-et-secours-lutilisation-dun-mntmns-en-géographie-urbaine-permet-dextraire-une-donnée-cruciale-pour-laccessibilité-la-morphologie-du-réseau-des-rues." class="section level3">
+<h3><span style="color:red">Pour observer les possibles différences d’accès rapides des urgences et secours, l’utilisation d’un MNT/MNS en géographie urbaine permet d’extraire une donnée cruciale pour l’accessibilité : la morphologie du réseau des rues.</span></h3>
+</div>
+</div>
+<div id="mntmns-des-structures-des-rues-de-lille-à-gauche-et-roubaix-à-droite" class="section level2">
+<h2>MNT/MNS des structures des rues de Lille (à gauche) et Roubaix (à droite)</h2>
+<p><img src="https://etudiantp4.github.io/sitegis/2026/05/13/lib-rez-roubaix/index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><em>Nous avons utilisé des données OSM via Over Pass Turbo pour filtrer et avoir un aperçu des rues.</em></p>
+<p>À Roubaix, <mark>héritière d’un passé industriel dense</mark>, le tissu urbain est marqué par une grande proportion de rues étroites et de “courées” (habitats ouvriers enclavés). En traitant ces données, on peut cartographier les zones où la largeur de la chaussée est inférieure au seuil nécessaire pour le passage rapide des véhicules de secours.</p>
+<p>Alors que Lille a bénéficié de percées haussmanniennes et de restructurations majeures facilitant la circulation, certains quartiers roubaisiens souffrent d’un enclavement morphologique. Les rues étroites, couplées au stationnement souvent saturé, créent de nombreux “points de friction” qui ralentissent les interventions d’urgence. Ici, la géographie des bâtiments devient une composante directe de l’inégalité de soin : <mark>à distance égale d’un hôpital, le temps d’intervention sera plus long dans le tissu dense de Roubaix que dans les grands axes lillois.</mark></p>
+<div id="pour-finir-dans-la-continuité-de-notre-étude-sig-de-laccès-à-la-santé-pour-lille-et-roubaix-nous-allons-utiliser-une-jointure-spatiale-qui-permettra-la-superposition-de-la-densité-de-population-avec-les-points-dimplantation-des-structures-de-soin-révélant-un-potentiel-déséquilibre." class="section level3">
+<h3>Pour finir, dans la continuité de notre étude SIG de l’accès à la santé pour Lille et Roubaix, nous allons utiliser une jointure spatiale qui permettra la superposition de la densité de population avec les points d’implantation des structures de soin révélant un potentiel déséquilibre.</h3>
+<pre><code>## Multiple layers are present in data source C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\iris.gpkg, reading layer `iris&#39;.
+## Use `st_layers&#39; to list all layer names and their type in a data source.
+## Set the `layer&#39; argument in `st_read&#39; to read a particular layer.</code></pre>
+<pre><code>## Reading layer `iris&#39; from data source 
+##   `C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\iris.gpkg&#39; 
+##   using driver `GPKG&#39;
+## Simple feature collection with 1347 features and 7 fields
+## Geometry type: MULTIPOLYGON
+## Dimension:     XY
+## Bounding box:  xmin: 635936.9 ymin: 6986147 xmax: 788231 ymax: 7110497
+## Projected CRS: RGF93 v1 / Lambert-93</code></pre>
+<p><img src="https://etudiantp4.github.io/sitegis/2026/05/13/lib-rez-roubaix/index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre><code>## Reading layer `soin&#39; from data source 
+##   `C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\soin.geojson&#39; 
+##   using driver `GeoJSON&#39;
+## Simple feature collection with 500 features and 73 fields
+## Geometry type: POINT
+## Dimension:     XY
+## Bounding box:  xmin: 2.845676 ymin: 50.5807 xmax: 3.411022 ymax: 50.72513
+## Geodetic CRS:  WGS 84</code></pre>
+<p><img src="https://etudiantp4.github.io/sitegis/2026/05/13/lib-rez-roubaix/index_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
+<p><em>Nous avons utilisé les données de l’IRIS fournies sur le site Data.gouv, nous permettant d’avoir accès aux contours infracommunales. De cela, nous avons joint ces données avec le nombre et densité de population de l’INSEE, aussi basés par l’IRIS, nous permettant de nous concentrer sur les quartiers des communes. Enfin à cette jointure, nous avons joint des données géographiques fournies en OSM par OverPassTrubo sur les différents services et offres de soins publics et privées (médecins, cliniques, hôpitaux,etc)</em></p>
+<p>À Roubaix, la densité d’habitants au kilomètre carré est l’une des plus élevées de la métropole, particulièrement dans les quartiers populaires. Or, à travers notre analyse, on s’aperçoit que la densité ne correspond pas toujours à une concentration proportionnelle de l’offre de soins de premier recours (généralistes, cabinets, etc).</p>
+</div>
+<div id="on-remarque-ici-des-fortes-concentrations-humaines-au-sein-des-deux-centres-des-deux-communes-mais-lille-est-davantage-fournit-en-accès-aux-soins-et-services-de-proximités-liés." class="section level3">
+<h3>On remarque ici des fortes concentrations humaines au sein des deux centres des deux communes mais Lille est davantage fournit en accès aux soins et services de proximités liés.</h3>
+<p>Cette situation valide l’hypothèse d’une Roubaix “moins bien intégrée” : alors que la population est dense et captive de son territoire, elle doit se tourner vers les centres et services lillois pour des soins spécialisés. Cependant, le pôle médical lillois, bien que performant, se trouve à une distance/temps qui décourage les populations roubaisiennes les plus fragiles.</p>
+</div>
+<div id="ce-décalage-spatial-crée-un-effet-de-saturation-sur-les-structures-locales-confirmant-le-besoin-urgent-de-permettre-un-meilleur-accès-aux-installations-de-soin-pour-garantir-une-meilleure-équité-de-traitement." class="section level3">
+<h3>Ce décalage spatial crée un effet de saturation sur les structures locales, confirmant le besoin urgent de permettre un meilleur accès aux installations de soin, pour garantir une meilleure équité de traitement.</h3>
 <p><em><mark>Site réalisé par Mathis et Lucien Groupe 7</mark></em></p>
 </div>
 </div>
@@ -102,7 +154,22 @@
     </div>
     
 
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
     
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
     
   </body>

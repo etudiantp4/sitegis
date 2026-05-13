@@ -1,0 +1,13 @@
+---
+title: Conclusion
+author: etudiantp4
+date: '2026-05-13T10:00:00'
+slug: mnt-mns
+categories: []
+tags: []
+---
+
+*<span style="color:red">L'analyse croisée des données confirme que la proximité de Roubaix avec Lille ne suffit pas à garantir une équité d'accès aux soins.</span>* Si Roubaix bénéficie théoriquement du rayonnement médical de la métropole, l'étude révèle que cette intégration est entravée par des barrières structurelles majeures : l'enclavement morphologique mis en évidence par le MNT freine l'efficacité des secours, tandis que la jointure spatiale souligne un décalage critique entre une densité de population record et une offre de soin de proximité souvent limitée. De plus, via les données filosofi, on note aussi une différence de niveau de vie et de revenu par ménages. Lille concentre ses infrastructures dans son centre, avec les hautes densités de populations et les quartiers les plus bourgeois de par la gentrification du centre-ville. Dès lors, la validation de l'hypothèse initiale appelle à repenser l'organisation urbaine : la réduction des disparités ne passe plus seulement par une meilleure connexion aux infrastructures lilloises, mais par une réorganisation des équipements au cœur du tissu roubaisien. Seul un réinvestissement massif dans la maintenance et la modernisation des bâtiments de santé permettra de répondre dignement aux besoins de la population.
+
+
+*<mark>Site réalisé par Mathis et Lucien Groupe 7</mark>*
