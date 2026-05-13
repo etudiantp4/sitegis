@@ -7,12 +7,6 @@ categories: []
 tags: []
 ---
 
-## <span style="color:red">Voici le site qui va être dédié à la question suivante :</span>
-*Dans quelle mesure y a t'il des différences d’accès aux soins entre Roubaix et Lille, et en quoi ces écarts relèvent à la fois de la répartition des équipements de santé, de l’accessibilité territoriale et des inégalités sociales ?*
-
-### *Hypothèse de départ :* 
-Roubaix profite des services et infrastructures publics de santé de la métropole de Lille mais demeure moins bien intégrée, souffre d’un besoin de recentralisation pour permettre un meilleur accès et contient une population plus précaire qui serait moins apte  à subvenir à leurs propres soins.
-
 Tout d’abord, intéressons-nous au niveau de vie basé sur les revenus pour observer les possibles différences entre les deux communes. Pour cela, nous utiliserons des données *filosofi de l'INSEE* nous permettant de comparer les revenus des ménages en combinant les données fiscales.
 
 ## Comparaison des revenus médian entre Lille et Roubaix
@@ -64,3 +58,8 @@ p2 <- ggplot(roubaix) + geom_sf() + labs(title = "Roubaix") + theme_void()
 p1 + p2
 ```
 
+*Nous avons utilisé des données OSM via Over Pass Turbo pour filtrer et avoir un aperçu des rues.*
+
+À Roubaix, <mark>héritière d'un passé industriel dense</mark>, le tissu urbain est marqué par une grande proportion de rues étroites et de "courées" (habitats ouvriers enclavés). En traitant ces données, on peut cartographier les zones où la largeur de la chaussée est inférieure au seuil nécessaire pour le passage rapide des véhicules de secours.
+
+Alors que Lille a bénéficié de percées haussmanniennes et de restructurations majeures facilitant la circulation, certains quartiers roubaisiens souffrent d'un enclavement morphologique. Les rues étroites, couplées au stationnement souvent saturé, créent de nombreux "points de friction" qui ralentissent les interventions d'urgence. Ici, la géographie des bâtiments devient une composante directe de l'inégalité de soin : <mark>à distance égale d'un hôpital, le temps d'intervention sera plus long dans le tissu dense de Roubaix que dans les grands axes lillois.</mark>
