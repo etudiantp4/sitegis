@@ -67,14 +67,14 @@ Alors que Lille a bénéficié de percées haussmanniennes et de restructuration
 ### Pour finir, dans la continuité de notre étude SIG de l'accès à la santé pour Lille et Roubaix,  nous allons utiliser une jointure spatiale qui permettra la superposition de la densité de population avec les points d'implantation des structures de soin révélant un potentiel déséquilibre.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-zones <- st_read("iris.gpkg") %>%
-  filter(code_insee %in% c("59350", "59512"))
 
-plot(st_geometry(zones))
+zones <- st_read("iris.gpkg", quiet = TRUE) %>%
+  filter(code_insee %in% c("59350", "59512"))
+ plot(st_geometry(zones)) qui créait le doublon
 
 pop <- read_excel("lolo.xlsx", skip = 5)
 
-soins <- st_read("soin.geojson") %>%
+soins <- st_read("soin.geojson", quiet = TRUE) %>%
   st_transform(2154)
 
 zones_complet <- zones %>%
@@ -88,10 +88,10 @@ zones_complet <- zones_complet %>%
 
 soins_analyse <- st_join(soins, zones_complet, join = st_intersects)
 
-plot(zones_complet["densite"], main = "Densité de population entre Lille et Roubaix et leurs disponibilités aux infrastructures de soins")
+plot(zones_complet["densite"], 
+     main = "Densité de population entre Lille et Roubaix et leurs disponibilités aux infrastructures de soins")
 
 plot(st_geometry(soins), add = TRUE, col = "orange", pch = 20)
-
 
 ```
 

@@ -33,27 +33,7 @@ tags: []
 <p>Alors que Lille a bénéficié de percées haussmanniennes et de restructurations majeures facilitant la circulation, certains quartiers roubaisiens souffrent d’un enclavement morphologique. Les rues étroites, couplées au stationnement souvent saturé, créent de nombreux “points de friction” qui ralentissent les interventions d’urgence. Ici, la géographie des bâtiments devient une composante directe de l’inégalité de soin : <mark>à distance égale d’un hôpital, le temps d’intervention sera plus long dans le tissu dense de Roubaix que dans les grands axes lillois.</mark></p>
 <div id="pour-finir-dans-la-continuité-de-notre-étude-sig-de-laccès-à-la-santé-pour-lille-et-roubaix-nous-allons-utiliser-une-jointure-spatiale-qui-permettra-la-superposition-de-la-densité-de-population-avec-les-points-dimplantation-des-structures-de-soin-révélant-un-potentiel-déséquilibre." class="section level3">
 <h3>Pour finir, dans la continuité de notre étude SIG de l’accès à la santé pour Lille et Roubaix, nous allons utiliser une jointure spatiale qui permettra la superposition de la densité de population avec les points d’implantation des structures de soin révélant un potentiel déséquilibre.</h3>
-<pre><code>## Multiple layers are present in data source C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\iris.gpkg, reading layer `iris&#39;.
-## Use `st_layers&#39; to list all layer names and their type in a data source.
-## Set the `layer&#39; argument in `st_read&#39; to read a particular layer.</code></pre>
-<pre><code>## Reading layer `iris&#39; from data source 
-##   `C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\iris.gpkg&#39; 
-##   using driver `GPKG&#39;
-## Simple feature collection with 1347 features and 7 fields
-## Geometry type: MULTIPOLYGON
-## Dimension:     XY
-## Bounding box:  xmin: 635936.9 ymin: 6986147 xmax: 788231 ymax: 7110497
-## Projected CRS: RGF93 v1 / Lambert-93</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<pre><code>## Reading layer `soin&#39; from data source 
-##   `C:\Users\simon\Documents\AZ\sitegis\content\post\2026-05-13-lib-rez-roubaix\soin.geojson&#39; 
-##   using driver `GeoJSON&#39;
-## Simple feature collection with 500 features and 73 fields
-## Geometry type: POINT
-## Dimension:     XY
-## Bounding box:  xmin: 2.845676 ymin: 50.5807 xmax: 3.411022 ymax: 50.72513
-## Geodetic CRS:  WGS 84</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
 <p><em>Nous avons utilisé les données de l’IRIS fournies sur le site Data.gouv, nous permettant d’avoir accès aux contours infracommunales. De cela, nous avons joint ces données avec le nombre et densité de population de l’INSEE, aussi basés par l’IRIS, nous permettant de nous concentrer sur les quartiers des communes. Enfin à cette jointure, nous avons joint des données géographiques fournies en OSM par OverPassTrubo sur les différents services et offres de soins publics et privées (médecins, cliniques, hôpitaux,etc)</em></p>
 <p>À Roubaix, la densité d’habitants au kilomètre carré est l’une des plus élevées de la métropole, particulièrement dans les quartiers populaires. Or, à travers notre analyse, on s’aperçoit que la densité ne correspond pas toujours à une concentration proportionnelle de l’offre de soins de premier recours (généralistes, cabinets, etc).</p>
 </div>
