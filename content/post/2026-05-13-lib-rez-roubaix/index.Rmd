@@ -7,7 +7,60 @@ categories: []
 tags: []
 ---
 
-grgrg
-gr
+## <span style="color:red">Voici le site qui va être dédié à la question suivante :</span>
+*Dans quelle mesure y a t'il des différences d’accès aux soins entre Roubaix et Lille, et en quoi ces écarts relèvent à la fois de la répartition des équipements de santé, de l’accessibilité territoriale et des inégalités sociales ?*
 
-frfrfr
+### *Hypothèse de départ :* 
+Roubaix profite des services et infrastructures publics de santé de la métropole de Lille mais demeure moins bien intégrée, souffre d’un besoin de recentralisation pour permettre un meilleur accès et contient une population plus précaire qui serait moins apte  à subvenir à leurs propres soins.
+
+Tout d’abord, intéressons-nous au niveau de vie basé sur les revenus pour observer les possibles différences entre les deux communes. Pour cela, nous utiliserons des données *filosofi de l'INSEE* nous permettant de comparer les revenus des ménages en combinant les données fiscales.
+
+## Comparaison des revenus médian entre Lille et Roubaix
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(readxl)
+library(tidyverse)
+library(ggplot2)
+
+data_brute <- read_excel("filo.xlsx", sheet = 1, skip = 5)
+
+donnees_propres <- data_brute %>%
+  filter(COM %in% c("59350", "59512")) %>%
+  mutate(DEC_MED21 = as.numeric(DEC_MED21)) %>%
+  filter(!is.na(DEC_MED21))
+
+ggplot(donnees_propres, aes(x = LIBCOM, y = DEC_MED21, fill = LIBCOM)) +
+  geom_boxplot() +
+  labs(title = "Niveau de vie médian par quartier",
+       x = "Ville",
+       y = "Revenu médian") +
+  theme_minimal()
+```
+
+### L’analyse à travers le prisme des données Filosofi (INSEE) permet de mettre en lumière avant tout une différence notable de niveau de vie entre les deux communes mais aussi, une ségrégation spatiale majeure au sein de la métropole lilloise.
+
+En observant ce graphique "Niveau de vie médian par quartier", on remarque déjà une nette différence avec Lille qui possède un niveau de vie par habitant plus élevé que celui de Roubaix. Seulement, on remarque aussi un écart assez prononcé pour la ville de Lille, ce qui indique une forte ségrégation spatiale entre les différents quartiers de la ville avec certains aisés (notamment le Vieux-Lille) ou d'autres plus pauvres (Moulins). L'écart est plus réduit à Roubaix, ce qui montre un écart de richesse moins prononcé mais un niveau de vie inférieur à la ville de Lille.
+
+### Ensuite, il y a une nécessité à la facilité de circulation et la gestion des flux permettant aux services de secours et urgences d'être efficaces. 
+Les pompiers, médecins et urgentistes ont besoin de voies praticables et larges pour permettre une circulation fonctionnelle et subvenir aux besoins des habitants.
+
+### <span style="color:red">Pour observer les possibles différences d'accès rapides des urgences et secours, l'utilisation d'un MNT/MNS en géographie urbaine permet d'extraire une donnée cruciale pour l'accessibilité : la morphologie du réseau des rues.</span>
+
+## MNT/MNS des structures des rues de Lille (à gauche) et Roubaix (à droite)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(patchwork)
+library(sf)
+library(ggplot2)
+
+# Chargement silencieux
+lille <- st_read("lillerue.geojson", quiet = TRUE)
+roubaix <- st_read("rue.geojson", quiet = TRUE)
+
+p1 <- ggplot(lille) + geom_sf() + labs(title = "Lille") + theme_void()
+p2 <- ggplot(roubaix) + geom_sf() + labs(title = "Roubaix") + theme_void()
+
+# Affichage du graphique uniquement
+p1 + p2
+```
+
